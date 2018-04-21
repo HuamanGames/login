@@ -29,19 +29,6 @@
         document.querySelector(".signup").style.display="block";
         CreateUserBoxEditTrue();
     }
-    
-    document.querySelector('.submitIdentityButton').onclick = function() {
-       document.querySelector(".UsernameBox").contentEditable=false;
-       UserVerification();
-    };
-    
-    $(document).keypress(function(e) {
-        if(e.which == 13) {
-            document.querySelector(".UsernameBox").contentEditable=false;
-            UserVerification();
-            return;
-        }
-    });
         //Run login if the link is the login link
         if (window.location!="https://huamangames.github.io/login/"){window.location="https://huamangames.github.io/login/"}
     </script>
