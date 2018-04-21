@@ -16,20 +16,7 @@
       <link rel="stylesheet" href="css/style.css">
 
     <script>
-        document.querySelector(".UsernameBox").contentEditable=true;
-    document.querySelector(".PasswordBox").contentEditable=true;
-    document.querySelector(".identity").style.display="block";
-    document.querySelector(".signup").style.display="none";
-    document.querySelector(".enterCommand").style.display="none";
-    document.querySelector(".instructions").style.display="none";
-    document.querySelector("#pimng").style.display="none";
-    
-    document.querySelector('.NoAccount').onclick = function() {
-        document.querySelector(".identity").style.display="none";
-        document.querySelector(".signup").style.display="block";
-        CreateUserBoxEditTrue();
-    }
-        //Run login if the link is the login link
+        UserBoxEditTrue();//Run login if the link is the login link
         if (window.location!="https://huamangames.github.io/login/"){window.location="https://huamangames.github.io/login/"}
     </script>
 </head>
